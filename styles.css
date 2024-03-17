@@ -52,7 +52,7 @@ body {
 
 .title-card img {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border-radius: 15px;
   max-width: 100%;
 }
@@ -119,6 +119,10 @@ body {
   max-width: 100%;
 }
 
+.officiant {
+  padding: 1rem;
+}
+
 .obituary {
   padding: 1rem;
 }
@@ -140,6 +144,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .officiant h2,
   .donations h2,
   .obituary h2,
   .schedule h2 {
